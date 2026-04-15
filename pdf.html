@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>VKV Engineering Solutions</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: #f5f7fa;
+}
+
+/* NAVBAR */
+nav {
+    background: #0a1f44;
+    color: white;
+    padding: 15px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav h2 {
+    margin: 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+/* HERO SECTION */
+.hero {
+    background: linear-gradient(rgba(10,31,68,0.8), rgba(0,123,255,0.7)),
+                url('https://images.unsplash.com/photo-1581093588401-22d4d6c1b07c');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 18px;
+}
+
+/* BUTTON */
+.btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 30px;
+    background: #ffc107;
+    color: black;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background: #ffb300;
+}
+
+/* SECTION */
+.container {
+    padding: 60px 20px;
+    max-width: 1100px;
+    margin: auto;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+/* CARD */
+.card {
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+    text-align: center;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-6px);
+}
+
+/* FOOTER */
+footer {
+    background: #0a1f44;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+</style>
+
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<nav>
+    <h2>VKV Solutions</h2>
+    <div>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+    </div>
+</nav>
+
+<!-- HERO -->
+<div class="hero">
+    <h1>VKV Engineering Solutions Pvt Ltd</h1>
+    <p>Professional Formatting & Engineering Documentation</p>
+
+    <a class="btn" href="mypdf.pdf" target="_blank">
+        View Our Work
+    </a>
+</div>
+
+<!-- CONTENT -->
+<div class="container">
+
+    <div class="grid">
+
+        <div class="card">
+            <h3>About Us</h3>
+            <p>
+                We provide high-quality document formatting, engineering reports,
+                and structured professional documentation.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>Management</h3>
+            <p><b>HR Manager:</b> Abhijeet Singh Thakur</p>
+            <p><b>Director:</b> Karan Kumar Chaudhari</p>
+        </div>
+
+        <div class="card">
+            <h3>Careers</h3>
+            <p>We hire interns. Contact us to apply.</p>
+        </div>
+
+        <div class="card">
+            <h3>Contact</h3>
+            <p><b>Mobile:</b> 9860507692</p>
+        </div>
+
+    </div>
+
+</div>
+
+<!-- FOOTER -->
+<footer>
+    <p>© 2026 VKV Engineering Solutions Pvt Ltd</p>
+</footer>
+
+</body>
+</html>
